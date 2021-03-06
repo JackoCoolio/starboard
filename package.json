@@ -1,0 +1,36 @@
+{
+  "name": "starboard",
+  "version": "1.0.0",
+  "description": "Starboard bot for Discord, running on Node.js",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackoCoolio/starboard.git"
+  },
+  "keywords": [
+    "discord",
+    "starboard",
+    "nodejs"
+  ],
+  "nodemonConfig": {
+    "ignore": [
+      "*.json"
+    ]
+  },
+  "author": "Jackson Wambolt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JackoCoolio/starboard/issues"
+  },
+  "homepage": "https://github.com/JackoCoolio/starboard#readme",
+  "dependencies": {
+    "@types/node": "^13.13.34",
+    "discord.js": "^11.6.4",
+    "dotenv": "^8.2.0",
+    "typescript": "^3.9.7"
+  }
+}
